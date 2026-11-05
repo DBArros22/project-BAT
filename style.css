@@ -1,0 +1,30 @@
+/* Configurações Globais de Animações e Efeitos */
+
+.dropzone {
+    transition: all 0.2s ease-in-out;
+}
+
+.dropzone.drag-active {
+    border-color: #6366f1 !important;
+    background-color: rgba(99, 102, 241, 0.05) !important;
+}
+
+/* Personalização da barra de rolagem para listas longas */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
